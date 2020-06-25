@@ -28,7 +28,7 @@ class ScrollableGallery extends Component {
           }
         </div>
         <InfiniteScroll
-          className="main"
+          className="main" 
           loadMore={onScroll}
           hasMore={hasMoreItems}
           initialLoad={false}>
