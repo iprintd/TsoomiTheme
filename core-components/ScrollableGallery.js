@@ -24,7 +24,7 @@ class ScrollableGallery extends Component {
       <div className="gallery">
         <div className="top">
           {
-            title && <div className='main-title scrollable-title'>{title}</div>
+            title && <div className='main-title scrollable-title'>העלאת גרפיקה מותאמת אישית</div>
           }
         </div>
         <InfiniteScroll
