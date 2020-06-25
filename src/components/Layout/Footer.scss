@@ -1,0 +1,62 @@
+@import "_theme.scss";
+.footer ul li {
+  list-style-type: none;
+
+}
+
+.footer_menu {
+  margin: 0;
+  padding: 0;
+  min-height: 120px;
+}
+
+.footer .header {
+  font-size: 18px;
+  margin-bottom:5px;
+  font-weight: normal;
+}
+
+.footer a {
+  color: #fff !important;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer {
+  position: relative;
+  background-color: var(--footer-background-color);
+  height: var(--footer-height);
+  font-size: var(--text-size-regular);
+  width: 100%;
+  color: var(--footer-text-color);
+  padding: 40px 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .footer-column {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    font-weight: bold;
+    list-style-type: none;
+  }
+  
+
+  @media (max-width: $lg) {
+    display: none;
+  }
+}
